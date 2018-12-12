@@ -8,8 +8,9 @@
 
 #include <sys/queue.h>
 
-#define ACRNCTL_OPT_ROOT        "/opt/acrn/conf"
-#define ACRN_DM_SOCK_ROOT       "/run/acrn/mngr"
+#define ACRN_CONF_PATH		"/usr/share/acrn/conf"
+#define ACRN_CONF_PATH_ADD	ACRN_CONF_PATH "/add"
+#define ACRN_DM_SOCK_PATH	"/run/acrn/mngr"
 
 #define MAX_NAME_LEN            (32)
 
